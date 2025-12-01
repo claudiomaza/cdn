@@ -137,3 +137,51 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# --- SISTEMA OPERATIVO: LINUX ---
+# Archivos temporales de editores comunes en Linux (Gedit, Nano, Vim)
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# --- SISTEMA OPERATIVO: MAC (macOS) ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# --- SISTEMA OPERATIVO: WINDOWS ---
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# --- ENTORNOS DE DESARROLLO (IDEs) ---
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (WebStorm, IntelliJ)
+.idea/
+*.iml
+
+# Vim / Emacs (Archivos swap de edición)
+*.swp
+*.swo
+\#*#
+
+# --- NODE JS & LOGS ---
+# Aunque tu repo sea de imágenes, si algún día usas npm para algo:
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# --- OTROS ---
+# Carpetas de compilación (por si acaso)
+dist/
+build/
